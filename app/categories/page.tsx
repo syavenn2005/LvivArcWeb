@@ -14,7 +14,7 @@ export default function CategoriesPage() {
           ← Назад до головної
         </Link>
         <h1 className="categories-title">Архітектура міста Львова</h1>
-        <p className="categories-subtitle">Оберіть категорію для перегляду пам'яток</p>
+        <p className="categories-subtitle">Оберіть категорію для перегляду пам&apos;яток</p>
       </div>
 
       <div className="categories-grid">
@@ -33,7 +33,7 @@ export default function CategoriesPage() {
                   {category === 'civil' && '🏛️'}
                 </div>
                 <h2 className="category-name">{categoryNames[category]}</h2>
-                <p className="category-count">{monuments.length} пам'яток</p>
+                <p className="category-count">{monuments.length} пам&apos;яток</p>
                 <div className="category-preview">
                   {monuments.slice(0, 3).map((monument) => (
                     <div key={monument.id} className="preview-image-wrapper">

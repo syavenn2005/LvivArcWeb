@@ -41,7 +41,7 @@ export default function MonumentPage({ params }: { params: { id: string } }) {
 
         <div className="monument-info">
           <div className="monument-description">
-            <h2>Про пам'ятку</h2>
+            <h2>Про пам&apos;ятку</h2>
             <p>{monument.description}</p>
           </div>
 
@@ -60,7 +60,7 @@ export default function MonumentPage({ params }: { params: { id: string } }) {
 
       <div className="monument-footer">
         <Link href="/" className="back-to-gallery">
-          Повернутися до всіх пам'яток
+          Повернутися до всіх пам&apos;яток
         </Link>
       </div>
     </div>

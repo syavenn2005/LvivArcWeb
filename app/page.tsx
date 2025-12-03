@@ -18,7 +18,7 @@ export default function Home() {
     <div className="container">
       <header className="header">
         <h1>🏛️ Архітектура Львова</h1>
-        <p>Відкрийте красу історичних пам'яток міста Лева</p>
+        <p>Відкрийте красу історичних пам&apos;яток міста Лева</p>
         <Link href="/categories" className="categories-link">
           Переглянути за категоріями →
         </Link>
@@ -29,7 +29,7 @@ export default function Home() {
           className={`filter-tab ${selectedCategory === 'all' ? 'active' : ''}`}
           onClick={() => setSelectedCategory('all')}
         >
-          Всі пам'ятки
+          Всі пам&apos;ятки
         </button>
         {categories.map((category) => (
           <button
@@ -73,7 +73,7 @@ export default function Home() {
 
       {filteredMonuments.length === 0 && (
         <div className="no-results">
-          <p>Пам'яток у цій категорії не знайдено</p>
+          <p>Пам&apos;яток у цій категорії не знайдено</p>
         </div>
       )}
     </div>

@@ -32,7 +32,7 @@ export default function CategoryPage({ params }: { params: { category: string } 
             {category === 'civil' && '🏛️'}
           </div>
           <h1 className="category-detail-title">{categoryNames[category]}</h1>
-          <p className="category-detail-count">{monuments.length} пам'яток</p>
+          <p className="category-detail-count">{monuments.length} пам&apos;яток</p>
         </div>
       </div>
 
